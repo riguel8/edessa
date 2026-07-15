@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MyEdessa — Physician-guided GLP-1 weight loss treatment. Compounded semaglutide and tirzepatide, prescribed online and shipped to your door. Starting at $99/month.">
+  <title>MyEdessa — Prescription Weight Loss, Made Simple</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Ticker Bar -->
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker__track">
+      <span class="ticker__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> FDA regulated pharmacies</span>
+      <span class="ticker__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Unlimited 24/7 support</span>
+      <span class="ticker__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> 100,000+ patients</span>
+      <span class="ticker__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 100% online</span>
+      <span class="ticker__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> Free expedited delivery</span>
+      <span class="ticker__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> No hidden fees</span>
+      <span class="ticker__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> HIPAA compliant</span>
+      <span class="ticker__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> FDA regulated pharmacies</span>
+      <span class="ticker__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg> Unlimited 24/7 support</span>
+      <span class="ticker__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> 100,000+ patients</span>
+      <span class="ticker__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 100% online</span>
+      <span class="ticker__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg> Free expedited delivery</span>
+      <span class="ticker__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg> No hidden fees</span>
+      <span class="ticker__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> HIPAA compliant</span>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">MyEdessa</a>
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About Us</a>
+        <a href="product.html" class="nav__link">Treatments</a>
+        <a href="#how-it-works" class="nav__link">How It Works</a>
+        <a href="#faq" class="nav__link">FAQs</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </div>
+      <a href="#get-started" class="btn btn--primary btn--sm nav__cta">Get Started</a>
+      <button class="nav__mobile-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav__mobile-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="product.html">Treatments</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#faq">FAQs</a>
+      <a href="#contact">Contact</a>
+      <a href="#get-started" class="btn btn--primary btn--full">Get Started</a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-v2">
+      <div class="container">
+        <div class="hero-v2__inner">
+          <div class="hero-v2__content">
+            <div class="hero-v2__badge">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              Join 100,000+ successful GLP-1 patients
+            </div>
+            <h1 class="hero-v2__title">Finally serious about <em>Weight Loss?</em></h1>
+            <p class="hero-v2__subtitle">Get personalized care with GLP-1 medication</p>
+            <div class="hero-v2__checklist">
+              <div class="hero-v2__check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Lose pounds of fat every week
+              </div>
+              <div class="hero-v2__check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Get approved in minutes
+              </div>
+              <div class="hero-v2__check">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Weight Loss Money-Back Guarantee
+              </div>
+            </div>
+            <p class="hero-v2__pricing">Start for just <strong>$99 + free shipping.</strong> Everything you need is included</p>
+            <a href="#get-started" class="btn btn--primary btn--lg btn--arrow">Am I Qualified?</a>
+          </div>
+          <div class="hero-v2__image">
+            <img src="assets/products/GLP-1 Injections.png" alt="Edessa GLP-1 Medication vial">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS SECTION -->
+    <section class="section" aria-labelledby="products-title">
+      <div class="container">
+        <div class="section__header fade-in">
+          <h2 class="section__title" id="products-title">Trusted by experts, <em>priced for you.</em></h2>
+          <p class="section__desc">Find the right GLP-1 medication with the confidence that comes from knowing it is doctor-approved and budget-friendly.</p>
+        </div>
+        <div class="product-cards fade-in">
+          <div class="product-card">
+            <img src="assets/products/GLP-1 Injections.png" alt="GLP-1 Injections vial" class="product-card__img">
+            <p class="product-card__price">Starting at $99/mo</p>
+            <h3 class="product-card__title">GLP-1 Injections</h3>
+            <p class="product-card__desc">Simple once weekly injection</p>
+            <a href="product.html" class="btn btn--primary btn--full">GET STARTED</a>
+          </div>
+          <div class="product-card">
+            <img src="assets/products/GLP-1 Tablets.png" alt="GLP-1 Tablets bottle" class="product-card__img">
+            <p class="product-card__price">Starting at $129/mo</p>
+            <h3 class="product-card__title">GLP-1 Tablets</h3>
+            <p class="product-card__desc">Once daily dissolvable tablet</p>
+            <a href="product.html" class="btn btn--primary btn--full">GET STARTED</a>
+          </div>
+          <div class="product-card">
+            <img src="assets/products/Tirzepatide Injections.png" alt="Tirzepatide Injections vial" class="product-card__img">
+            <p class="product-card__price">Starting at $189/mo</p>
+            <h3 class="product-card__title">Tirzepatide Injections</h3>
+            <p class="product-card__desc">Simple once-weekly injection — no daily hassle</p>
+            <a href="product.html#tirzepatide" class="btn btn--primary btn--full">GET STARTED</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULTS / SOCIAL PROOF -->
+    <section class="results-section" aria-labelledby="results-title">
+      <div class="container">
+        <h2 id="results-title">The results speak <em>for themselves.</em></h2>
+        <p>Sometimes you have to see it to believe it. GLP-1 medication can be life-changing and improves mood, sleep, energy and longevity. Photos, testimonials and results are from Edessa patients.</p>
+        <div class="results-gallery fade-in">
+          <div class="results-gallery__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <div class="results-gallery__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <div class="results-gallery__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <div class="results-gallery__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <div class="results-gallery__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+          <div class="results-gallery__item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div>
+        </div>
+        <a href="#get-started" class="btn btn--white btn--lg btn--arrow">GET STARTED</a>
+      </div>
+    </section>
+
+    <!-- STATS BANNER: The change we've all been waiting for -->
+    <section class="section section--cream" aria-labelledby="change-title">
+      <div class="container">
+        <div class="section__header fade-in">
+          <h2 class="section__title" id="change-title">The change we've all been <em>waiting for</em></h2>
+          <p class="section__desc">Join the Edessa community and we'll help you finally get real, lasting results</p>
+        </div>
+        <div class="big-stats fade-in">
+          <div class="big-stat">
+            <div class="big-stat__number">6x</div>
+            <div class="big-stat__label">More weight loss than exercise and diet alone</div>
+          </div>
+          <div class="big-stat">
+            <div class="big-stat__number">18%</div>
+            <div class="big-stat__label">Lose an average of 18% of your body weight</div>
+          </div>
+          <div class="big-stat">
+            <div class="big-stat__number">93%</div>
+            <div class="big-stat__label">Kept the weight off for good</div>
+          </div>
+          <div class="big-stat">
+            <div class="big-stat__number">30+</div>
+            <div class="big-stat__label">Average pounds lost per patient</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WEIGHT CALCULATOR + SCIENCE -->
+    <section class="section" aria-labelledby="science-title">
+      <div class="container">
+        <div class="two-col fade-in">
+          <div class="two-col__text">
+            <span class="section__subtitle">Metabolic Science</span>
+            <h2 id="science-title">Want to reach your goal weight <em>fast?</em></h2>
+            <p>It's not magic — it's metabolic science. GLP-1 is a naturally occurring hormone that regulates appetite and blood sugar, improving your metabolism and knocking out cravings.</p>
+            <a href="#get-started" class="btn btn--primary btn--arrow">GET STARTED</a>
+          </div>
+          <div class="two-col__visual">
+            <div class="calculator" id="weight-calculator">
+              <div class="calculator__label">Select your current weight:</div>
+              <div class="calculator__value" id="calc-weight">200</div>
+              <div class="calculator__unit">lbs</div>
+              <input type="range" min="100" max="400" value="200" class="calculator__slider" id="weight-slider">
+              <div class="calculator__result">
+                <div class="calculator__result-label">You can easily lose:</div>
+                <div class="calculator__result-value" id="calc-loss">36</div>
+                <div class="calculator__unit">lbs</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- METABOLISM SECTION -->
+    <section class="section section--cream" aria-labelledby="metabolism-title">
+      <div class="container">
+        <div class="two-col fade-in">
+          <div class="two-col__text">
+            <h2 id="metabolism-title">We will fix your broken <em>metabolism.</em></h2>
+            <p>Traditional diets don't work because nearly 70% of weight is genetically determined. With medication, you will work with your body rather than against it — to reach your goal weight and keep it that way.</p>
+            <a href="#get-started" class="btn btn--primary btn--arrow">GET STARTED</a>
+          </div>
+          <div class="two-col__visual">
+            <div class="visual-placeholder">
+              <svg width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY EDESSA STATS -->
+    <section class="stats-dark" aria-labelledby="why-stats-title">
+      <div class="container">
+        <div class="section__header fade-in">
+          <h2 class="section__title" id="why-stats-title">Why are so many patients signing up for Edessa? <em>It works.</em></h2>
+          <p class="section__desc">On average, patients lose 15-20% of their body weight.</p>
+        </div>
+        <div class="big-stats fade-in">
+          <div class="big-stat">
+            <div class="big-stat__number">18%</div>
+            <div class="big-stat__label">Average weight loss</div>
+          </div>
+          <div class="big-stat">
+            <div class="big-stat__number">9/10</div>
+            <div class="big-stat__label">Patients call it the most effective treatment to date</div>
+          </div>
+          <div class="big-stat">
+            <div class="big-stat__number">6.5"</div>
+            <div class="big-stat__label">Potential waist reduction</div>
+          </div>
+          <div class="big-stat">
+            <div class="big-stat__number">93%</div>
+            <div class="big-stat__label">Kept the weight off</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS (4-step) -->
+    <section class="section" id="how-it-works" aria-labelledby="process-title">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__subtitle">How It Works</span>
+          <h2 class="section__title" id="process-title">Begin your weight loss journey <em>with Edessa.</em></h2>
+          <p class="section__desc">Start your transformation today with Edessa's easy, personalized process for accessing GLP-1 medications. Designed with your convenience in mind, our streamlined approach ensures you're supported every step of the way.</p>
+        </div>
+        <div class="process-steps fade-in">
+          <div class="process-step">
+            <div class="process-step__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <div>
+              <h3>Get Approved</h3>
+              <p>Complete a quick online evaluation to determine if GLP-1 medication is right for you. Our team of licensed professionals will review your information and provide approval in no time.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="process-step__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+            <div>
+              <h3>Get Prescribed</h3>
+              <p>Once approved, you'll receive personalized care and a prescription to support your weight loss and health goals. Your care plan is designed to help you achieve lasting results safely and effectively.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="process-step__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            </div>
+            <div>
+              <h3>Receive your Rx</h3>
+              <p>Your medication will be shipped directly to your door for maximum convenience. With Edessa, starting your treatment is as simple as opening your package and following our easy-to-use instructions.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="process-step__icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <div>
+              <h3>Unlimited Support</h3>
+              <p>Edessa provides access to a dedicated team of specialists, ensuring you have the support you need around the clock. With unlimited appointments, messaging and support, you can confidently reach out for guidance at any time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-8 fade-in">
+          <a href="#get-started" class="btn btn--primary btn--lg btn--arrow">GET STARTED</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="section section--cream" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__subtitle">Patient Stories</span>
+          <h2 class="section__title" id="testimonials-title">There's a reason people are <em>raving about us.</em></h2>
+          <p class="section__desc">Join the thousands of people who have trusted Edessa to help change their lives, achieving significant, lasting weight loss.</p>
+        </div>
+        <div class="testimonials-grid fade-in">
+          <div class="testimonial">
+            <div class="testimonial__stars">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial__text">"I've lost 35 pounds in 4 months. The process was incredibly easy — I filled out the form, got approved the next day, and my medication arrived within a week."</p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">JM</div>
+              <div>
+                <div class="testimonial__name">Jessica M.</div>
+                <div class="testimonial__detail">Lost 35 lbs in 4 months</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial__stars">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial__text">"My doctor was responsive and adjusted my dosage when I needed it. No other telehealth service has given me this level of personalized care."</p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">RK</div>
+              <div>
+                <div class="testimonial__name">Robert K.</div>
+                <div class="testimonial__detail">Lost 28 lbs in 3 months</div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial">
+            <div class="testimonial__stars">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <p class="testimonial__text">"The transparent pricing sold me. No hidden fees, no insurance hassle. I know exactly what I pay each month and the medication just shows up at my door."</p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">ST</div>
+              <div>
+                <div class="testimonial__name">Sarah T.</div>
+                <div class="testimonial__detail">Lost 22 lbs in 2.5 months</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-8 fade-in">
+          <a href="#get-started" class="btn btn--primary btn--lg btn--arrow">GET STARTED</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <div class="section__header fade-in">
+          <span class="section__subtitle">FAQs</span>
+          <h2 class="section__title" id="faq-title">Frequently Asked <em>Questions</em></h2>
+        </div>
+        <div class="faq-list fade-in">
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              How much does the program cost?
+              <span class="faq-item__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="faq-item__answer">
+              <p>Plans start at just $99/month for compounded semaglutide injections. This includes medication, supplies, shipping, provider access, dose adjustments, and ongoing clinical support. There are no hidden fees — ever. HSA/FSA cards are accepted on 3+ month plans.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              Will this work for me?
+              <span class="faq-item__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="faq-item__answer">
+              <p>GLP-1 medications have demonstrated 15–20% average body weight reduction in clinical trials. Most adults 18+ with a BMI of 27 or higher who have tried diet and exercise without lasting results are eligible. Complete our free assessment and a licensed provider will determine if GLP-1 treatment is right for you.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              What if my insurance doesn't cover the medication?
+              <span class="faq-item__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="faq-item__answer">
+              <p>No insurance is needed! Edessa provides compounded GLP-1 medications at a fraction of the brand-name price through FDA-regulated compounding pharmacies. Our transparent, all-inclusive pricing means you pay one predictable monthly amount with no surprise bills.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <button class="faq-item__question" aria-expanded="false">
+              What can I expect after I sign up?
+              <span class="faq-item__icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></span>
+            </button>
+            <div class="faq-item__answer">
+              <p>After completing your assessment, a board-certified physician reviews your information within 24 hours. If approved, your medication ships within 3–5 business days via cold-chain packaging. You'll have access to unlimited provider messaging, scheduled check-ins, and dose adjustments throughout your treatment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GUARANTEE SECTION -->
+    <section class="section section--cream" aria-label="Edessa Guarantee">
+      <div class="container">
+        <div class="guarantee fade-in">
+          <div class="guarantee__badge">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h2>Edessa Guarantee</h2>
+          <p class="guarantee__subtitle">The only thing you'll lose is extra weight.</p>
+          <p>We're so confident in our personalized program, we guarantee you'll lose weight or your money back. It's that simple.</p>
+          <a href="#get-started" class="btn btn--white btn--lg btn--arrow">CONTINUE WITH CONFIDENCE</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WEIGHT LOSS GOAL QUIZ -->
+    <section class="section" id="get-started" aria-labelledby="quiz-title">
+      <div class="container">
+        <div class="quiz fade-in">
+          <div class="section__header">
+            <h2 class="section__title" id="quiz-title">What's your weight loss <em>goal?</em></h2>
+          </div>
+          <div class="quiz__options">
+            <button class="quiz__option">Lose 1-20 lbs</button>
+            <button class="quiz__option">Lose 21-50 lbs</button>
+            <button class="quiz__option">Losing 51+ lbs</button>
+            <button class="quiz__option">Not sure, I just want to lose weight</button>
+          </div>
+          <a href="#" class="btn btn--primary btn--lg btn--arrow">CONTINUE</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOTTOM TRUST BADGES -->
+    <section class="section section--cream" aria-label="Trust indicators">
+      <div class="container">
+        <div class="trust-badges-bottom fade-in">
+          <div class="trust-badge-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Edessa Money Back Guarantee
+          </div>
+          <div class="trust-badge-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            Free, Expedited Delivery
+          </div>
+          <div class="trust-badge-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            Doctor-Led Plans &amp; Coaching
+          </div>
+          <div class="trust-badge-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            No Hidden Fees
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer-v2" role="contentinfo" id="contact">
+    <div class="container">
+      <div class="footer-v2__top">
+        <div class="footer-v2__contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:support@myedessa.com">support@myedessa.com</a>
+        </div>
+        <div class="footer-v2__contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <a href="tel:+12709102233">(270) 910-2233</a>
+        </div>
+        <div class="footer-v2__contact-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          732 S 6TH ST STE N, LAS VEGAS, NV, 89101
+        </div>
+      </div>
+
+      <div class="footer-v2__legal">
+        <p>*The assessment made available on the Edessa website does not create a doctor-patient relationship between the individual completing the assessment and Edessa. OpenLoop Health, a network of US-licensed doctors that adhere to rigorous medical protocols designed for patient safety, has established exclusionary criteria to determine if an individual does not qualify for GLP-1s. The answers an individual provides to the Edessa assessment consequently determine if the individual is screened out of eligibility for GLP-1 medication, and an OpenLoop Health clinician will meet with an individual after checkout to determine if they qualify for a prescription. OpenLoop Health clinicians retain the decision to prescribe compounded GLP-1s to patients.</p>
+        <p>All claims and benefits on this website refer to self-reported data from GLP-1 customers on a treatment plan that includes compounded GLP-1 medications and consultations with medical professionals. Customers reported their weight on their initial medical intake questionnaire every 3-4 weeks thereafter. Results from compounded medications found on the Edessa platform may vary and be affected by an individual's adherence to the program and their clinician's recommendations. Compounded GLP-1s are produced in FDA-regulated facilities. Although these facilities are highly regulated, the medications are not FDA-approved or evaluated for safety, efficacy, or quality. The decision to use compounded drugs is guided by the licensed provider's medical judgment, which is informed by a telehealth consultation and medical history. We encourage all prospective users of compounded medications to speak with their provider about the specific risks and benefits that may come with the use of compounded medication. Edessa does not produce compounded medications, and individuals may receive medication that looks different than what is portrayed on the website.</p>
+        <p>Pharmacy Providers: We are partnered with multiple USA certified pharmacies to bring the best product and overall experience to our membership. Our team meets regularly with pharmacies to discuss any product shortages, shipping delays, and get updated reports on their medication testing.</p>
+        <p>*Results vary based on starting weight and program adherence. Inches lost from hips, waist, chest, thighs and arms in the first month. Patients exercised daily and ate a reduced-calorie diet. Their fat loss is not typical. Results may vary. Medication prescriptions are at the discretion of medical providers and may not be suitable for everyone. Edessa patients typically result in 1-2 lbs per week weight loss after 4 weeks, involving a healthy diet and exercise changes. Consult a healthcare professional before using medication or starting any weight loss program. *Based on the average weight loss as reported by patients without diabetes who reached and maintained a dose of 2.4 mg/week of GLP-1 treatment, along with a reduced-calorie diet and increased physical activity.</p>
+      </div>
+
+      <div class="footer-v2__bottom">
+        <p>&copy; 2025 MyEdessa. All rights reserved.</p>
+        <div class="footer-v2__links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Important Safety Information</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
