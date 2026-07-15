@@ -4,7 +4,7 @@ A modern, premium, conversion-focused telehealth website for MyEdessa — physic
 
 ## Project Background
 
-This project was originally built as client work for MyEdessa. After delivery, the client went unresponsive and communication was never resumed, so the project was never officially handed off or launched. Rather than let the work go unused, I'm sharing this as a personal redesign / portfolio piece — including additional pages that were part of the client's original scope but not completed before contact was lost. All code, structure, and design decisions here are my own, built to showcase front-end development and conversion-focused UX/UI work.
+This project was originally started as client work for MyEdessa. After delivery, the client went unresponsive and communication was never resumed, so the project was never officially handed off, launched, or fully completed. What's shared here is **not the full original build** — it's my own personal redesign / modified version, including some additional pages based on the client's original requests, put together to showcase front-end development and conversion-focused UX/UI work. All code, structure, and design decisions here are my own.
 
 ## Pages
 
@@ -17,8 +17,8 @@ Hero, Our Story (two-col), Mission (primary banner), Our Values (Trust/Accessibi
 ### Product Details (`product.html`)
 Product Hero (image + pricing table), Overview (two-col), Key Benefits (6 cards), Treatment Process (3 steps), Eligibility (qualify/not-qualify split), Safety Information (warnings + side effects), Pricing (dual tables: Semaglutide + Tirzepatide), Results Stats, FAQ (6 items), CTA
 
-### Additional Pages (added post-handoff, per original client scope)
-> Note: these were requested as part of the original project but not completed before the client became unreachable. Listed here as a placeholder — fill in as you build them out.
+### Additional Pages (not fully developed yet)
+> Note: these were requested as part of the original client scope but were never completed before the client became unreachable. They are **not fully developed** — listed here as a placeholder/in-progress list, to be built out further.
 - e.g. `treatments.html` — full treatments listing/comparison page
 - e.g. `how-it-works.html` — dedicated step-by-step process page
 - e.g. `contact.html` — standalone contact/support page
